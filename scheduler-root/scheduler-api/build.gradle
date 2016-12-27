@@ -1,0 +1,7 @@
+
+apply plugin: "war"
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile project(":scheduler-core")
+	}
